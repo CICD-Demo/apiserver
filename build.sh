@@ -43,7 +43,7 @@ spec:
   source:
     type: Git
     git:
-      uri: http://gogs.$INFRA/$PROJECT/restapis
+      uri: http://gogs.$DOMAIN/$PROJECT/restapis
       ref: master
   output:
     to:
